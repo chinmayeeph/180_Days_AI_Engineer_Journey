@@ -364,19 +364,19 @@ My core principles:
 
 Use this checklist to track progress throughout the journey.
 
-- Strengthen Python fundamentals.
-- Practise Data Structures and Algorithms.
-- Learn NumPy for numerical computing.
-- Learn Pandas for data manipulation.
-- Perform Exploratory Data Analysis.
-- Develop SQL querying skills.
-- Learn Machine Learning fundamentals.
-- Implement Deep Learning models.
-- Explore Generative AI and LLMs.
-- Learn embeddings and Retrieval-Augmented Generation (RAG).
-- Build practical projects across the roadmap.
-- Document projects and important lessons.
-- Develop a portfolio of independently built applications.
+- [ ] Strengthen Python fundamentals.
+- [ ] Practise Data Structures and Algorithms.
+- [ ] Learn NumPy for numerical computing.
+- [ ] Learn Pandas for data manipulation.
+- [ ] Perform Exploratory Data Analysis.
+- [ ] Develop SQL querying skills.
+- [ ] Learn Machine Learning fundamentals.
+- [ ] Implement Deep Learning models.
+- [ ] Explore Generative AI and LLMs.
+- [ ] Learn embeddings and Retrieval-Augmented Generation (RAG).
+- [ ] Build practical projects across the roadmap.
+- [ ] Document projects and important lessons.
+- [ ] Develop a portfolio of independently built applications.
 
 I will update this checklist as I make progress.
 
