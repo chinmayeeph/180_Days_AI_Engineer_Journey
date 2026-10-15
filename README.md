@@ -82,35 +82,36 @@ The repository is organized into learning stages, making it easier to track prog
 │
 ├── 01_Python/
 │   ├── README.md
-│   ├── 01_Python_Fundamentals/
-│   │   ├── variables_datatypes/
-│   │   ├── input_output_operators/
-│   │   ├── strings/
-│   │   ├── conditionals/
-│   │   ├── loops/
-│   │   ├── functions/
-│   │   └── problem_solving/
-│   ├── 02_Python_Core/
-│   │   ├── lists_tuples_sets_dictionaries/
-│   │   ├── list_comprehensions/
-│   │   ├── exceptions/
-│   │   ├── modules_packages_imports/
-│   │   ├── file_handling/
-│   │   ├── object_oriented_programming/
-│   │   └── debugging_testing/
-│   ├── 03_Python_Libraries/
-│   │   ├── standard_library/
-│   │   ├── pip_virtual_environments/
-│   │   └── requests_json_apis/
-│   ├── 04_Practice_Problems/
-│   │   ├── beginner/
-│   │   ├── intermediate/
-│   │   └── independent_solutions/
-│   ├── 05_Mini_Projects/
-│   │   ├── password_generator/
-│   │   ├── dice_simulator/
-│   │   ├── quiz_application/
-│   │   └── expense_tracker/
+│   ├── Day-01-Variables-Functions/
+│   ├── Day-02-Conditionals/
+│   ├── Day-03-Loops/
+│   ├── Day-04-Exceptions/
+│   ├── Day-05-Libraries-Modules-Packages/
+│   ├── Day-06-Unit-Testing/
+│   ├── Day-07-File-Handling/
+│   ├── Day-08-Regular-Expressions/
+│   ├── Day-09-OOP-Classes/
+│   ├── Day-10-Python-Mini-Project/
+│   ├── Day-11-Python-Practice/
+│   ├── Day-12-Python-Capstone/
+│   ├── Day-13-NumPy-Fundamentals/
+│   ├── Day-14-NumPy-Operations/
+│   ├── Day-15-NumPy-Project/
+│   ├── Day-16-Pandas-Fundamentals/
+│   ├── Day-17-Pandas-Data-Cleaning/
+│   ├── Day-18-Pandas-GroupBy/
+│   ├── Day-19-Pandas-Merge-Dates/
+│   ├── Day-20-Pandas-Project/
+│   ├── Day-21-Matplotlib/
+│   ├── Day-22-Seaborn/
+│   ├── Day-23-Data-Visualization-Project/
+│   ├── Day-24-EDA/
+│   ├── Day-25-Kaggle-EDA-Project/
+│   ├── Day-26-SQL-Fundamentals/
+│   ├── Day-27-SQL-Intermediate/
+│   ├── Day-28-SQL-Python/
+│   ├── Day-29-End-to-End-Project/
+│   ├── Day-30-Independent-Capstone/
 │   └── resources/
 │
 ├── 02_DSA/
