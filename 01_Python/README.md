@@ -144,19 +144,19 @@ My learning principles:
 
 ## ✅ Progress Tracker
 
-- Complete Python fundamentals.
-- Practise functions, conditionals, and loops.
-- Learn modules, packages, and exception handling.
-- Complete Python mini-projects.
-- Learn NumPy.
-- Learn Pandas and data cleaning.
-- Learn Matplotlib and Seaborn.
-- Complete exploratory data analysis.
-- Practise SQL queries.
-- Complete a Kaggle notebook.
-- Build an end-to-end data analysis project.
-- Complete an independent capstone.
-- Document projects and learning outcomes.
+- [ ] Complete Python fundamentals.
+- [ ] Practise functions, conditionals, and loops.
+- [ ] Learn modules, packages, and exception handling.
+- [ ] Complete Python mini-projects.
+- [ ] Learn NumPy.
+- [ ] Learn Pandas and data cleaning.
+- [ ] Learn Matplotlib and Seaborn.
+- [ ] Complete exploratory data analysis.
+- [ ] Practise SQL queries.
+- [ ] Complete a Kaggle notebook.
+- [ ] Build an end-to-end data analysis project.
+- [ ] Complete an independent capstone.
+- [ ] Document projects and learning outcomes.
 
 ## 🚀 What's Next?
 
