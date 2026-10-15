@@ -381,9 +381,10 @@ The repository is organized into learning stages, making it easier to track prog
                           `resources`                 monitoring, portfolio,
                                                       resume, interview
                                                       preparation
+                                                      
   ---------------------------------------------------------------------------
 
-## Suggested Structure Inside a Substantial Project
+## Structure Inside a Substantial Project
 
 ``` text
 project_name/
