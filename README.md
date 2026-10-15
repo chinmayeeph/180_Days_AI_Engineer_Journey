@@ -343,6 +343,64 @@ The repository is organized into learning stages, making it easier to track prog
 
 *The structure above is illustrative. The actual folders and subfolders will reflect the contents I create as I progress.*
 
+## Month-by-Month Mapping
+
+  ---------------------------------------------------------------------------
+  Month                   Main folders                Planned deliverables
+  ----------------------- --------------------------- -----------------------
+  1 --- Python + Data     `01_Python` to `06_SQL`     Expense analyzer,
+  Foundations                                         student performance
+                                                      analyzer, sales
+                                                      dashboard, Titanic
+                                                      analysis notebook
+
+  2 --- Machine Learning  `07_ML`                     House price prediction,
+                                                      churn prediction,
+                                                      customer segmentation,
+                                                      ML pipeline, Kaggle
+                                                      work
+
+  3 --- Deep Learning +   `08_Deep_Learning`          Image classification,
+  NLP                                                 sentiment analysis,
+                                                      Transformer text
+                                                      classifier
+
+  4 --- LLM Engineering + `09_GenAI`                  PDF research assistant,
+  RAG                                                 document Q&A,
+                                                      multi-document
+                                                      assistant, RAG
+                                                      evaluation
+
+  5 --- AI Agents +       `09_GenAI`, `10_Projects`,  Research agent, data
+  Backend + Cloud         `11_Production_AI_MLOps`    analyst agent, REST
+                                                      API, Dockerized and
+                                                      deployed application
+
+  6 --- Production AI +   `10_Projects`,              Production capstone,
+  MLOps + Jobs            `11_Production_AI_MLOps`,   tests, CI/CD,
+                          `resources`                 monitoring, portfolio,
+                                                      resume, interview
+                                                      preparation
+  ---------------------------------------------------------------------------
+
+## Suggested Structure Inside a Substantial Project
+
+``` text
+project_name/
+├── README.md
+├── data/
+│   ├── raw/
+│   └── processed/
+├── notebooks/
+├── src/
+├── tests/
+├── reports/
+├── requirements.txt
+├── .env.example
+├── .gitignore
+└── main.py
+```
+
 ## 📚 My Learning Method
 
 I aim to prioritize active practice over passive learning.
