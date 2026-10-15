@@ -28,6 +28,7 @@ My learning journey is organized into the following stages:
 | `08_Deep_Learning` | Deep Learning | Neural networks, training, backpropagation, deep learning architectures, and model development |
 | `09_GenAI` | Generative AI | LLMs, prompting, embeddings, Transformers, RAG, and AI application development |
 | `10_Projects` | Practical Implementation | Applying learned concepts through independent, end-to-end projects |
+| `11_Production_AI_MLOps` | Production ready works | FastAPI, Docker, Cloud Fundamentals, Deployment, CI CD GitHub Actions, MLflow_Experiment, Security Secrets Cost Optimization, AI System Design |
 
 *This roadmap represents my planned learning structure. Topics and project scope may evolve as I progress.*
 
