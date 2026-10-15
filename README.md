@@ -74,7 +74,19 @@ Each project will be documented with its objective, implementation, tools, key l
 The repository is organized into learning stages, making it easier to track progress and find exercises, notes, and projects.
 
 ```text
-180_Days_AI_Engineer_Journey/
+# 180_Days_AI_Engineer_Journey --- Complete Folder Structure
+
+│   This structure follows the six-month AI Engineer roadmap:
+│
+│   Month 1: Python + Data Foundations
+│   Month 2: Machine Learning Foundations
+│   Month 3: Deep Learning + NLP
+│   Month 4: LLM Engineering + RAG
+│   Month 5: AI Agents + Backend + Cloud
+│   Month 6: Production AI + MLOps + Job Preparation
+│
+│   The original ten top-level folders are retained.
+│   `11_Production_AI_MLOps` is added to give production deployment, monitoring, testing, and CI/CD a dedicated home.
 │
 ├── README.md
 ├── LICENSE
@@ -143,6 +155,7 @@ The repository is organized into learning stages, making it easier to track prog
 │   ├── 09_Practice_Exercises/
 │   ├── 10_Notebooks/
 │   └── projects/
+│       └── student_marks_analysis/
 │
 ├── 04_Pandas/
 │   ├── README.md
@@ -157,134 +170,237 @@ The repository is organized into learning stages, making it easier to track prog
 │   ├── 09_Data_Cleaning_Transformation/
 │   ├── 10_Practice_Notebooks/
 │   └── projects/
+│       ├── student_performance_analyzer/
+│       └── sales_data_analysis/
 │
 ├── 05_EDA/
 │   ├── README.md
-│   ├── 01_Statistics_Descriptive_Analysis/
+│   ├── 01_EDA_Workflow/
 │   ├── 02_Data_Quality_Assessment/
-│   ├── 03_Univariate_Analysis/
-│   ├── 04_Bivariate_Multivariate_Analysis/
-│   ├── 05_Outliers_Distributions_Correlation/
-│   ├── 06_Matplotlib/
-│   ├── 07_Seaborn/
-│   ├── 08_Insight_Generation_Storytelling/
-│   ├── 09_Kaggle_Datasets/
+│   ├── 03_Descriptive_Statistics/
+│   ├── 04_Univariate_Analysis/
+│   ├── 05_Bivariate_Multivariate_Analysis/
+│   ├── 06_Outliers_Distributions_Correlation/
+│   ├── 07_Matplotlib/
+│   ├── 08_Seaborn/
+│   ├── 09_Insight_Generation_Storytelling/
+│   ├── datasets/
+│   ├── notebooks/
 │   └── projects/
+│       ├── titanic_survival_analysis/
 │       ├── sales_data_eda/
 │       └── customer_data_eda/
 │
 ├── 06_SQL/
 │   ├── README.md
 │   ├── 01_SQL_Fundamentals/
-│   ├── 02_Filtering_Sorting/
-│   ├── 03_Aggregation_GroupBy_Having/
-│   ├── 04_Joins/
+│   ├── 02_SELECT_WHERE_ORDER_BY/
+│   ├── 03_Aggregations_GROUP_BY_HAVING/
+│   ├── 04_JOINS/
 │   ├── 05_Subqueries_CTEs/
 │   ├── 06_Window_Functions/
-│   ├── 07_Case_Date_String_Functions/
-│   ├── 08_Data_Manipulation/
-│   ├── 09_SQL_Practice_Problems/
+│   ├── 07_CASE_Date_String_Functions/
+│   ├── 08_Data_Definition_Manipulation/
+│   ├── 09_SQL_Exercises/
 │   ├── 10_Python_SQL_Integration/
 │   └── projects/
 │
 ├── 07_ML/
 │   ├── README.md
-│   ├── 01_Math_Statistics_Probability/
-│   ├── 02_Machine_Learning_Fundamentals/
+│   ├── 01_Statistics_Probability/
+│   ├── 02_ML_Fundamentals/
 │   ├── 03_Data_Preprocessing/
 │   ├── 04_Feature_Engineering/
-│   ├── 05_Supervised_Learning/
+│   ├── 05_Train_Validation_Test_Splits/
+│   ├── 06_Supervised_Learning/
 │   │   ├── regression/
 │   │   └── classification/
-│   ├── 06_Unsupervised_Learning/
+│   ├── 07_Unsupervised_Learning/
 │   │   ├── clustering/
 │   │   └── dimensionality_reduction/
-│   ├── 07_Model_Evaluation/
-│   ├── 08_Cross_Validation_Hyperparameter_Tuning/
-│   ├── 09_Scikit_Learn_Pipelines/
-│   ├── 10_Imbalanced_Data_Explainability/
-│   ├── 11_Model_Saving_Inference/
-│   ├── 12_ML_Projects/
-│   │   ├── house_price_prediction/
-│   │   ├── customer_churn_prediction/
-│   │   └── customer_segmentation/
-│   └── resources/
+│   ├── 08_Model_Evaluation/
+│   ├── 09_Cross_Validation/
+│   ├── 10_Hyperparameter_Tuning/
+│   ├── 11_Scikit_Learn_Pipelines/
+│   ├── 12_Imbalanced_Data/
+│   ├── 13_Model_Explainability/
+│   ├── 14_Model_Saving_Inference/
+│   ├── 15_Exercises/
+│   ├── notebooks/
+│   └── projects/
+│       ├── house_price_prediction/
+│       ├── customer_churn_prediction/
+│       └── customer_segmentation/
 │
 ├── 08_Deep_Learning/
 │   ├── README.md
 │   ├── 01_Deep_Learning_Fundamentals/
-│   ├── 02_Linear_Algebra_Tensors/
+│   ├── 02_Tensors_Linear_Algebra/
 │   ├── 03_Neural_Networks/
 │   ├── 04_Forward_Propagation_Backpropagation/
 │   ├── 05_Loss_Optimization_Regularization/
 │   ├── 06_PyTorch_Fundamentals/
-│   ├── 07_Model_Training_Validation/
-│   ├── 08_CNNs/
-│   ├── 09_Sequence_Models_RNN_LSTM/
-│   ├── 10_NLP_Fundamentals/
-│   ├── 11_Tokenization_Embeddings/
-│   ├── 12_Transformers_Attention/
-│   ├── 13_Hugging_Face/
-│   ├── 14_Transfer_Learning/
-│   ├── 15_Deep_Learning_Projects/
-│   └── resources/
+│   ├── 07_Datasets_DataLoaders/
+│   ├── 08_Model_Training_Validation/
+│   ├── 09_CNNs_Computer_Vision/
+│   ├── 10_RNN_LSTM_Sequence_Models/
+│   ├── 11_NLP_Fundamentals/
+│   ├── 12_Tokenization_Embeddings/
+│   ├── 13_Attention_Transformers/
+│   ├── 14_Hugging_Face/
+│   ├── 15_Transfer_Learning/
+│   ├── 16_Exercises/
+│   ├── notebooks/
+│   └── projects/
+│       ├── image_classification/
+│       ├── sentiment_analysis/
+│       └── transformer_text_classifier/
 │
 ├── 09_GenAI/
 │   ├── README.md
-│   ├── 01_Generative_AI_LLM_Fundamentals/
+│   ├── 01_LLM_Fundamentals/
 │   ├── 02_Prompt_Engineering/
 │   ├── 03_LLM_APIs_Local_Models/
-│   ├── 04_Embeddings_Semantic_Search/
+│   ├── 04_Tokenization_Embeddings/
 │   ├── 05_Vector_Databases/
 │   ├── 06_Document_Loading_Chunking/
 │   ├── 07_Retrieval_Augmented_Generation/
 │   ├── 08_Retrieval_Reranking/
 │   ├── 09_RAG_Evaluation/
-│   ├── 10_LangChain_LlamaIndex/
-│   ├── 11_Fine_Tuning_Basics/
-│   ├── 12_Tool_Calling/
-│   ├── 13_AI_Agents_Workflows/
-│   ├── 14_Agent_Memory_State/
-│   ├── 15_FastAPI_Backend_Basics/
-│   ├── 16_GenAI_Safety_Evaluation/
-│   ├── 17_GenAI_Projects/
+│   ├── 10_Hugging_Face/
+│   ├── 11_LangChain_LlamaIndex/
+│   ├── 12_Fine_Tuning_Basics/
+│   ├── 13_Tool_Calling/
+│   ├── 14_AI_Agents/
+│   ├── 15_Workflows_Memory_State/
+│   ├── 16_Agent_Evaluation_Safety/
+│   ├── 17_GenAI_Exercises/
+│   ├── notebooks/
+│   └── projects/
+│   │   ├── pdf_research_assistant/
 │   │   ├── document_qa_rag/
-│   │   ├── pdf_chatbot/
-│   │   └── ai_research_assistant/
+│   │   ├── multi_document_knowledge_assistant/
+│   │   ├── ai_research_agent/
+│   │   └── ai_data_analyst_agent/
 │   └── resources/
 │
-└── 10_Projects/
+├── 10_Projects/
 │   ├── README.md
-│   ├── Python_Projects/
-│   │   ├── Expense_Tracker/
-│   │   ├── Password_Generator/
-│   │   └── File_Automation_Tool/
-│   ├── Data_Analysis_Projects/
-│   │   ├── Sales_Analysis/
-│   │   ├── Customer_Analytics/
-│   │   └── EDA_Portfolio_Project/
-│   ├── Machine_Learning_Projects/
-│   │   ├── House_Price_Prediction/
-│   │   ├── Churn_Prediction/
-│   │   └── Recommendation_System/
-│   ├── Deep_Learning_Projects/
-│   │   ├── Image_Classification/
-│   │   └── NLP_Classification/
-│   ├── Generative_AI_Projects/
-│   │   ├── RAG_Document_Assistant/
-│   │   ├── PDF_Question_Answering/
-│   │   └── AI_Agent/
-│   ├── End_to_End_Projects/
-│   └── Portfolio_Showcase/
+│   ├── 01_Python_Projects/
+│   │   ├── personal_expense_analyzer/
+│   │   └── student_performance_analyzer/
+│   ├── 02_Data_Analysis_Projects/
+│   │   └── sales_data_analysis_dashboard/
+│   ├── 03_Machine_Learning_Projects/
+│   │   ├── house_price_prediction/
+│   │   ├── customer_churn_prediction/
+│   │   └── customer_segmentation/
+│   ├── 04_Deep_Learning_NLP_Projects/
+│   │   ├── image_classification_system/
+│   │   ├── sentiment_analysis_system/
+│   │   └── transformer_text_classifier/
+│   ├── 05_GenAI_RAG_Projects/
+│   │   ├── pdf_research_assistant/
+│   │   ├── ai_document_qa/
+│   │   └── multi_document_assistant/
+│   ├── 06_Agent_Projects/
+│   │   ├── ai_research_agent/
+│   │   └── ai_data_analyst_agent/
+│   ├── 07_End_to_End_AI_Applications/
+│   └── 08_Portfolio_Showcase/
+│
+├── 11_Production_AI_MLOps/                         
+│   ├── README.md
+│   ├── 01_FastAPI_Model_Serving/
+│   ├── 02_Request_Validation_Error_Handling/
+│   ├── 03_Testing_Pytest/
+│   ├── 04_Docker_Containerization/
+│   ├── 05_Databases_PostgreSQL/
+│   ├── 06_Async_Programming/
+│   ├── 07_Cloud_Fundamentals/
+│   ├── 08_Deployment/
+│   ├── 09_CI_CD_GitHub_Actions/
+│   ├── 10_MLflow_Experiment_Tracking/
+│   ├── 11_Model_Monitoring/
+│   ├── 12_AI_Evaluation_Observability/
+│   ├── 13_Security_Secrets_Cost_Optimization/
+│   ├── 14_AI_System_Design/
+│   ├── 15_Production_Capstone/
+│   └── resources/
 │
 └── resources/
-    ├── learning_roadmap.md
+    ├── six_month_roadmap.md
     ├── weekly_progress_tracker.md
-    ├── interview_preparation.md
-    └── useful_resources.md
+    ├── interview_preparation/
+    │   ├── python.md
+    │   ├── sql.md
+    │   ├── machine_learning.md
+    │   ├── deep_learning_nlp.md
+    │   └── generative_ai.md
+    ├── resume_linkedin_job_search.md
+    └── learning_resources.md
 ```
 
 *The structure above is illustrative. The actual folders and subfolders will reflect the contents I create as I progress.*
+
+## Month-by-Month Mapping
+
+  ---------------------------------------------------------------------------
+  Month                   Main folders                Planned deliverables
+  ----------------------- --------------------------- -----------------------
+  1 --- Python + Data     `01_Python` to `06_SQL`     Expense analyzer,
+  Foundations                                         student performance
+                                                      analyzer, sales
+                                                      dashboard, Titanic
+                                                      analysis notebook
+
+  2 --- Machine Learning  `07_ML`                     House price prediction,
+                                                      churn prediction,
+                                                      customer segmentation,
+                                                      ML pipeline, Kaggle
+                                                      work
+
+  3 --- Deep Learning +   `08_Deep_Learning`          Image classification,
+  NLP                                                 sentiment analysis,
+                                                      Transformer text
+                                                      classifier
+
+  4 --- LLM Engineering + `09_GenAI`                  PDF research assistant,
+  RAG                                                 document Q&A,
+                                                      multi-document
+                                                      assistant, RAG
+                                                      evaluation
+
+  5 --- AI Agents +       `09_GenAI`, `10_Projects`,  Research agent, data
+  Backend + Cloud         `11_Production_AI_MLOps`    analyst agent, REST
+                                                      API, Dockerized and
+                                                      deployed application
+
+  6 --- Production AI +   `10_Projects`,              Production capstone,
+  MLOps + Jobs            `11_Production_AI_MLOps`,   tests, CI/CD,
+                          `resources`                 monitoring, portfolio,
+                                                      resume, interview
+                                                      preparation
+                                                      
+  ---------------------------------------------------------------------------
+
+## Structure Inside a Substantial Project
+
+``` text
+project_name/
+├── README.md
+├── data/
+│   ├── raw/
+│   └── processed/
+├── notebooks/
+├── src/
+├── tests/
+├── reports/
+├── requirements.txt
+├── .env.example
+├── .gitignore
+└── main.py
+```
 
 ## 📚 My Learning Method
 
@@ -307,19 +423,19 @@ My core principles:
 
 Use this checklist to track progress throughout the journey.
 
-- Strengthen Python fundamentals.
-- Practise Data Structures and Algorithms.
-- Learn NumPy for numerical computing.
-- Learn Pandas for data manipulation.
-- Perform Exploratory Data Analysis.
-- Develop SQL querying skills.
-- Learn Machine Learning fundamentals.
-- Implement Deep Learning models.
-- Explore Generative AI and LLMs.
-- Learn embeddings and Retrieval-Augmented Generation (RAG).
-- Build practical projects across the roadmap.
-- Document projects and important lessons.
-- Develop a portfolio of independently built applications.
+- [ ] Strengthen Python fundamentals.
+- [ ] Practise Data Structures and Algorithms.
+- [ ] Learn NumPy for numerical computing.
+- [ ] Learn Pandas for data manipulation.
+- [ ] Perform Exploratory Data Analysis.
+- [ ] Develop SQL querying skills.
+- [ ] Learn Machine Learning fundamentals.
+- [ ] Implement Deep Learning models.
+- [ ] Explore Generative AI and LLMs.
+- [ ] Learn embeddings and Retrieval-Augmented Generation (RAG).
+- [ ] Build practical projects across the roadmap.
+- [ ] Document projects and important lessons.
+- [ ] Develop a portfolio of independently built applications.
 
 I will update this checklist as I make progress.
 
