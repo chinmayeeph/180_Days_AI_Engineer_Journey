@@ -1,4 +1,6 @@
-# 03 - NumPy
+# 🧪 NumPy
+
+Welcome to my **NumPy** learning section as part of my [180 Days AI Engineer Journey](../README.md).
 
 A beginner-friendly introduction to **NumPy (Numerical Python)**, a fundamental Python library for numerical computing, array manipulation, mathematical operations, and statistical analysis.
 
