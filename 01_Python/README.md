@@ -1,4 +1,4 @@
-# 🚀 30-Day AI Engineer Foundations Journey
+# 🚀 30-Day AI Engineer Python Foundations Journey
 
 **A 30-day intensive learning journey to build the foundations for a career in AI Engineering through hands-on coding, problem-solving, data analysis, and practical projects.**
 
