@@ -170,27 +170,57 @@ graph TD
     classDef highlight fill:#2563eb,stroke:#3b82f6,stroke-width:2px,color:#ffffff,font-weight:bold;
 
 ```mermaid
-graph TD
-    %% Custom Styling
-    classDef mainStage fill:#1e293b,stroke:#3b82f6,stroke-width:2px,color:#f8fafc,font-size:14px;
-    classDef milestone fill:#1e1b4b,stroke:#818cf8,stroke-width:3px,color:#e0e7ff,font-weight:bold,font-size:15px;
-    
-    %% Timeline Nodes
-    A([📅 30-DAY AI ROADMAP]):::milestone
-    B[🐍 CS50P PYTHON <br> <b>Days 1–12</b>]:::mainStage
-    C[🔢 NUMPY <br> <b>Days 13–15</b>]:::mainStage
-    D[🐼 PANDAS <br> <b>Days 16–20</b>]:::mainStage
-    E[📊 MATPLOTLIB <br> <b>Day 21</b>]:::mainStage
-    F[📈 SEABORN <br> <b>Day 22</b>]:::mainStage
-    G[🖼️ VISUALIZATION <br> <b>Day 23</b>]:::mainStage
-    H[🔎 EDA <br> <b>Day 24</b>]:::mainStage
-    I[🎯 KAGGLE EDA <br> <b>Day 25</b>]:::mainStage
-    J[🗄️ SQL <br> <b>Days 26–28</b>]:::mainStage
-    K[🚀 KAGGLE PROJECT <br> <b>Day 29</b>]:::mainStage
-    L([🏆 FINAL PROJECT <br> <b>Day 30</b>]):::milestone
+flowchart TD
+    %% Custom Interactive Themes & Color Grading
+    classDef tracking fill:#0f172a,stroke:#38bdf8,stroke-width:2px,color:#38bdf8,font-family:monospace;
+    classDef coreCode fill:#1e1b4b,stroke:#818cf8,stroke-width:2px,color:#e0e7ff,font-size:13px;
+    classDef dataPrep fill:#064e3b,stroke:#34d399,stroke-width:2px,color:#d1fae5,font-size:13px;
+    classDef analytics fill:#7c2d12,stroke:#fb923c,stroke-width:2px,color:#ffedd5,font-size:13px;
+    classDef launch fill:#4c1d95,stroke:#c084fc,stroke-width:3px,color:#f3e8ff,font-weight:bold,font-size:14px;
 
-    %% Timeline Links
-    A --> B --> C --> D --> E --> F --> G --> H --> I --> J --> K --> L
+    %% ----------------------------------------------------
+    %% PHASE LEVEL LABELS (Visual Group Anchors)
+    %% ----------------------------------------------------
+    START([⚡ STARTING LINE]):::tracking
+    
+    subgraph PHASE_1 ["💻 FOUNDATIONAL PYTHON ENGINE"]
+        Py["🐍 CS50P PYTHON CORE <br> ───<br>• Syntax & Structural Control <br>• File Operations & OOP Logic<br>📂 <b>Days 1–12</b>"]:::coreCode
+    end
+
+    subgraph PHASE_2 ["🔢 DATA MANIPULATION PIPELINE"]
+        Np["🔢 NUMPY MATRIX OPERATIONS<br>───<br>• Multi-Dim Vectors & Arrays<br>• High-Speed Mathematical Vectorization<br>📂 <b>Days 13–15</b>"]:::dataPrep
+        Pd["🐼 PANDAS DATA WRANGLING<br>───<br>• Advanced DataFrame Transformations<br>• Data Cleansing & Aggregate Pipelines<br>📂 <b>Days 16–20</b>"]:::dataPrep
+    end
+
+    subgraph PHASE_3 ["🎨 ADVANCED STATISTICAL VISUALIZATION"]
+        Mpl["📊 MATPLOTLIB CANVAS<br>───<br>• Plot Architectures & Configurations<br>📂 <b>Day 21</b>"]:::analytics
+        Sbn["📈 SEABORN MODELING VIA PLOTS<br>───<br>• Complex Correlative Dist Heatmaps<br>📂 <b>Day 22</b>"]:::analytics
+        Vis["🖼️ REFINING THE METRICS CANVAS<br>───<br>• Visual Storytelling & Insights Design<br>📂 <b>Day 23</b>"]:::analytics
+    end
+
+    subgraph PHASE_4 ["🔎 METRIC CAPTURE & REPOSITORIES"]
+        Eda["🔎 EXPLORATORY DATA ANALYSIS<br>───<br>• Statistical Discovery & Outlier Control<br>📂 <b>Day 24</b>"]:::analytics
+        KagEda["🎯 KAGGLE PIPELINE COMPETITION<br>───<br>• Reverse Engineering Feature Matrices<br>📂 <b>Day 25</b>"]:::analytics
+        Sql["🗄️ STRUCTURED QUERY LANGUAGE (SQL)<br>───<br>• Deep Join Operations & Database Relational Queries<br>📂 <b>Days 26–28</b>"]:::coreCode
+    end
+
+    subgraph PHASE_5 ["🚀 THE CAPSTONE RAMP"]
+        KagProj["🛸 FINISHING THE KAGGLE PIPELINE<br>───<br>• End-to-End Prediction Processing Model<br>📂 <b>Day 29</b>"]:::launch
+        Final(["🏆 MONUMENTAL CAPSTONE DEPLOYMENT<br>───<br>• Deep Architectural Engineering Setup Complete<br>🏁 <b>Day 30</b>"]):::launch
+    end
+
+    %% ----------------------------------------------------
+    %% HIGH INTERACT TRANSITION PATHWAYS
+    %% ----------------------------------------------------
+    START ==> Py
+    Py ==> Np
+    Np --> Pd
+    Pd ==> Mpl
+    Mpl --> Sbn --> Vis
+    Vis ==> Eda
+    Eda --> KagEda --> Sql
+    Sql ==> KagProj
+    KagProj ==> Final
 ```
 
 ## ✅ Progress Tracker
