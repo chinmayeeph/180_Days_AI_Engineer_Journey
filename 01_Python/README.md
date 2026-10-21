@@ -12,19 +12,38 @@ Rather than focusing only on watching tutorials, I prioritize **hands-on coding,
 
 ## 🗺️ 30-Day Learning Roadmap
 
-| Days | Topics | Learning Goals |
-|---|---|---|
-| **Day 01–03** | Python Foundations | Variables, functions, conditionals, loops, and programming logic |
-| **Day 04–06** | Python Core Concepts | Exceptions, libraries, modules, packages, and imports |
-| **Day 07–09** | Python Practical Skills | File handling, regular expressions, and object-oriented programming |
-| **Day 10–12** | Python Projects | Consolidate Python skills through practical mini-projects |
-| **Day 13–15** | NumPy | Arrays, indexing, slicing, vectorized operations, and numerical computing |
-| **Day 16–20** | Pandas | Series, DataFrames, filtering, cleaning, grouping, merging, and aggregation |
-| **Day 21–23** | Data Visualization | Matplotlib, Seaborn, and communicating data insights |
-| **Day 24–25** | Exploratory Data Analysis | Data exploration, identifying patterns, visualization, and drawing insights |
-| **Day 26–28** | SQL | Querying, filtering, aggregation, joins, and working with relational data |
-| **Day 29** | End-to-End Data Project | Apply Python, Pandas, visualization, and analytical thinking to a dataset |
-| **Day 30** | Independent Capstone | Demonstrate the skills learned through an independent project |
+| Day    | Main Focus                  | Repo                                                                                                                                       			 | Output                       |
+| ------ | --------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------| ---------------------------- |
+| **1**  | CS50P Functions + Variables | [day01_python_foundations](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/01_Python/day01_python_foundations)                    | 10+ tiny programs            |
+| **2**  | CS50P Conditionals          | [day02_conditions](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/01_Python/day02_conditions)                                    | Conditional exercises        |
+| **3**  | CS50P Loops                 | [day03_loops](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/01_Python/day03_loops)                                              | Loop problem set             |
+| **4**  | CS50P Exceptions            | [day04_exceptions](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/01_Python/day04_exceptions)                                    | Error-handling programs      |
+| **5**  | CS50P Libraries             | [day05_libraries_modules_packages](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/01_Python/day05_libraries_modules_packages)    | Library-based programs       |
+| **6**  | CS50P Unit Tests            | [day01_python_foundations](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/01_Python/day01_python_foundations)                    | Test your programs           |
+| **7**  | CS50P File I/O              | [day01_python_foundations](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/01_Python/day01_python_foundations)                    | File-processing mini project |
+| **8**  | CS50P Regular Expressions   | [day01_python_foundations](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/01_Python/day01_python_foundations)                    | Text-processing project      |
+| **9**  | CS50P OOP / Classes         | [day01_python_foundations](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/01_Python/day01_python_foundations)                    | OOP exercises                |
+| **10** | Python consolidation        | [day01_python_foundations](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/01_Python/day01_python_foundations)                    | Python mini project #1       |
+| **11** | Python advanced practice    | [day01_python_foundations](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/01_Python/day01_python_foundations)                    | Python mini project #2       |
+| **12** | Python capstone             | [day01_python_foundations](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/01_Python/day01_python_foundations)                    | Complete Python project      |
+| **13** | NumPy fundamentals          | [day01_python_foundations](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/01_Python/day01_python_foundations)                    | Arrays notebook              |
+| **14** | NumPy operations            | [day01_python_foundations](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/01_Python/day01_python_foundations)                    | NumPy exercises              |
+| **15** | NumPy mini project          | [day01_python_foundations](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/01_Python/day01_python_foundations)                    | Data analysis with NumPy     |
+| **16** | Pandas Series/DataFrames    | [day01_python_foundations](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/01_Python/day01_python_foundations)                    | Dataset exploration          |
+| **17** | Pandas filtering/cleaning   | [day01_python_foundations](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/01_Python/day01_python_foundations)                    | Data cleaning project        |
+| **18** | Pandas GroupBy/Aggregation  | [day01_python_foundations](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/01_Python/day01_python_foundations)                    | Analysis project             |
+| **19** | Pandas Merge/Join/Dates     | [day01_python_foundations](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/01_Python/day01_python_foundations)                    | Multi-table analysis         |
+| **20** | Pandas + Kaggle data        | [day01_python_foundations](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/01_Python/day01_python_foundations)                    | Kaggle dataset project       |
+| **21** | Matplotlib                  | [day01_python_foundations](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/01_Python/day01_python_foundations)                    | Visualization project        |
+| **22** | Seaborn                     | [day01_python_foundations](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/01_Python/day01_python_foundations)                    | Statistical visualization    |
+| **23** | Matplotlib + Seaborn        | [day01_python_foundations](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/01_Python/day01_python_foundations)                    | Visualization dashboard      |
+| **24** | EDA methodology             | [day01_python_foundations](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/01_Python/day01_python_foundations)                    | Complete EDA                 |
+| **25** | Kaggle EDA project          | [day01_python_foundations](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/01_Python/day01_python_foundations)                    | Full Kaggle analysis         |
+| **26** | SQL fundamentals            | [day01_python_foundations](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/01_Python/day01_python_foundations)                    | 30+ SQL queries              |
+| **27** | SQL intermediate            | [day01_python_foundations](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/01_Python/day01_python_foundations)                    | Analysis queries             |
+| **28** | SQL + Python                | [day01_python_foundations](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/01_Python/day01_python_foundations)                    | SQL data-analysis project    |
+| **29** | End-to-end Kaggle project   | [day01_python_foundations](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/01_Python/day01_python_foundations)                    | Portfolio project            |
+| **30** | Final independent project   | [day01_python_foundations](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/01_Python/day01_python_foundations)                    | GitHub-ready project         |
 
 *The roadmap is a learning target. Actual progress may vary depending on practice, debugging, and project complexity.*
 
