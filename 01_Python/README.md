@@ -161,6 +161,58 @@ My learning principles:
 6. Push meaningful progress to GitHub.
 7. Build projects that demonstrate understanding, not just course completion.
 
+# 📌 30-DAY PROGRESSION
+
+Here's the whole thing visually:
+
+```text
+                         30 DAYS
+                            │
+                            ▼
+                    🐍 CS50P PYTHON
+                     Days 1–12
+                            │
+                            ▼
+                        🔢 NUMPY
+                     Days 13–15
+                            │
+                            ▼
+                       🐼 PANDAS
+                     Days 16–20
+                            │
+                            ▼
+                  📊 MATPLOTLIB
+                       Day 21
+                            │
+                            ▼
+                    📈 SEABORN
+                       Day 22
+                            │
+                            ▼
+                📊 VISUALIZATION
+                       Day 23
+                            │
+                            ▼
+                       🔎 EDA
+                       Day 24
+                            │
+                            ▼
+                    🏆 KAGGLE EDA
+                       Day 25
+                            │
+                            ▼
+                        🗄️ SQL
+                     Days 26–28
+                            │
+                            ▼
+                  🚀 KAGGLE PROJECT
+                       Day 29
+                            │
+                            ▼
+                  🏆 FINAL PROJECT
+                       Day 30
+```
+
 ## ✅ Progress Tracker
 
 - [ ] Complete Python fundamentals.
