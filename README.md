@@ -16,19 +16,19 @@ Rather than only watching tutorials, I aim to follow a **learning-by-doing appro
 
 My learning journey is organized into the following stages:
 
-| Folder | Learning Stage | Main Topics | Link |
-|---|---|---|---|
-| `01_Python` | Python Fundamentals | Variables, data types, conditionals, loops, functions, exceptions, modules, file handling, and OOP | [Link](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/01_Python) |
-| `02_DSA` | Data Structures & Algorithms | Problem-solving, complexity basics, arrays, strings, searching, sorting, and common data structures |
-| `03_NumPy` | Numerical Computing | Arrays, indexing, slicing, vectorization, broadcasting, and mathematical operations |
-| `04_Pandas` | Data Manipulation | Series, DataFrames, filtering, grouping, merging, missing values, and data cleaning |
-| `05_EDA` | Exploratory Data Analysis | Data exploration, descriptive statistics, patterns, correlations, and visual insights |
-| `06_SQL` | Database Fundamentals | Queries, filtering, aggregation, joins, subqueries, and analytical SQL |
-| `07_ML` | Machine Learning | Data preprocessing, feature engineering, supervised and unsupervised learning, and model evaluation |
-| `08_Deep_Learning` | Deep Learning | Neural networks, training, backpropagation, deep learning architectures, and model development |
-| `09_GenAI` | Generative AI | LLMs, prompting, embeddings, Transformers, RAG, and AI application development |
-| `10_Projects` | Practical Implementation | Applying learned concepts through independent, end-to-end projects |
-| `11_Production_AI_MLOps` | Production ready works | FastAPI, Docker, Cloud Fundamentals, Deployment, CI CD GitHub Actions, MLflow_Experiment, Security Secrets Cost Optimization, AI System Design |
+| Folder | Learning Stage | Main Topics |
+|---|---|---|
+| [01_Python](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/01_Python) | Python Fundamentals | Variables, data types, conditionals, loops, functions, exceptions, modules, file handling, and OOP |
+| [02_DSA](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/02_DSA) | Data Structures & Algorithms | Problem-solving, complexity basics, arrays, strings, searching, sorting, and common data structures |
+| [03_NumPy](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/03_NumPy) | Numerical Computing | Arrays, indexing, slicing, vectorization, broadcasting, and mathematical operations |
+| [04_Pandas](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/04_Pandas) | Data Manipulation | Series, DataFrames, filtering, grouping, merging, missing values, and data cleaning |
+| [05_EDA](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/05_EDA) | Exploratory Data Analysis | Data exploration, descriptive statistics, patterns, correlations, and visual insights |
+| [06_SQL](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/06_SQL) | Database Fundamentals | Queries, filtering, aggregation, joins, subqueries, and analytical SQL |
+| [07_ML](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/07_ML) | Machine Learning | Data preprocessing, feature engineering, supervised and unsupervised learning, and model evaluation |
+| [08_Deep_Learning](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/08_Deep_Learning) | Deep Learning | Neural networks, training, backpropagation, deep learning architectures, and model development |
+| [09_GenAI](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/09_GenAI) | Generative AI | LLMs, prompting, embeddings, Transformers, RAG, and AI application development |
+| [10_Projects](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/10_Projects) | Practical Implementation | Applying learned concepts through independent, end-to-end projects |
+| [11_Production_AI_MLOps](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/11_Production_AI_MLOps) | Production ready works | FastAPI, Docker, Cloud Fundamentals, Deployment, CI CD GitHub Actions, MLflow_Experiment, Security Secrets Cost Optimization, AI System Design |
 
 *This roadmap represents my planned learning structure. Topics and project scope may evolve as I progress.*
 
