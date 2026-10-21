@@ -169,22 +169,29 @@ graph TD
     classDef default fill:#1f2937,stroke:#4b5563,stroke-width:2px,color:#f3f4f6,font-family:sans-serif;
     classDef highlight fill:#2563eb,stroke:#3b82f6,stroke-width:2px,color:#ffffff,font-weight:bold;
 
-    %% Nodes
-    Start([📅 30 DAYS ROADMAP]):::highlight
-    Py[🐍 CS50P PYTHON <br> Days 1–12]
-    Np[🔢 NUMPY <br> Days 13–15]
-    Pd[🐼 PANDAS <br> Days 16–20]
-    Mpl[📊 MATPLOTLIB <br> Day 21]
-    Sbn[📈 SEABORN <br> Day 22]
-    Vis[📊 VISUALIZATION <br> Day 23]
-    Eda[🔎 EDA <br> Day 24]
-    KagEda[🏆 KAGGLE EDA <br> Day 25]
-    Sql[🗄️ SQL <br> Days 26–28]
-    KagProj[🚀 KAGGLE PROJECT <br> Day 29]
-    Final[🏆 FINAL PROJECT <br> Day 30 bars]:::highlight
+```mermaid
+graph TD
+    %% Custom Styling
+    classDef mainStage fill:#1e293b,stroke:#3b82f6,stroke-width:2px,color:#f8fafc,font-size:14px;
+    classDef milestone fill:#1e1b4b,stroke:#818cf8,stroke-width:3px,color:#e0e7ff,font-weight:bold,font-size:15px;
+    
+    %% Timeline Nodes
+    A([📅 30-DAY AI ROADMAP]):::milestone
+    B[🐍 CS50P PYTHON <br> <b>Days 1–12</b>]:::mainStage
+    C[🔢 NUMPY <br> <b>Days 13–15</b>]:::mainStage
+    D[🐼 PANDAS <br> <b>Days 16–20</b>]:::mainStage
+    E[📊 MATPLOTLIB <br> <b>Day 21</b>]:::mainStage
+    F[📈 SEABORN <br> <b>Day 22</b>]:::mainStage
+    G[🖼️ VISUALIZATION <br> <b>Day 23</b>]:::mainStage
+    H[🔎 EDA <br> <b>Day 24</b>]:::mainStage
+    I[🎯 KAGGLE EDA <br> <b>Day 25</b>]:::mainStage
+    J[🗄️ SQL <br> <b>Days 26–28</b>]:::mainStage
+    K[🚀 KAGGLE PROJECT <br> <b>Day 29</b>]:::mainStage
+    L([🏆 FINAL PROJECT <br> <b>Day 30</b>]):::milestone
 
-    %% Connections
-    Start --> Py --> Np --> Pd --> Mpl --> Sbn --> Vis --> Eda --> KagEda --> Sql --> KagProj --> Final
+    %% Timeline Links
+    A --> B --> C --> D --> E --> F --> G --> H --> I --> J --> K --> L
+```
 
 ## ✅ Progress Tracker
 
