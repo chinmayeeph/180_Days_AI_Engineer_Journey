@@ -16,9 +16,9 @@ Rather than only watching tutorials, I aim to follow a **learning-by-doing appro
 
 My learning journey is organized into the following stages:
 
-| Folder | Learning Stage | Main Topics |
-|---|---|---|
-| `01_Python` | Python Fundamentals | Variables, data types, conditionals, loops, functions, exceptions, modules, file handling, and OOP |
+| Folder | Learning Stage | Main Topics | Link |
+|---|---|---|---|
+| `01_Python` | Python Fundamentals | Variables, data types, conditionals, loops, functions, exceptions, modules, file handling, and OOP | https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/01_Python |
 | `02_DSA` | Data Structures & Algorithms | Problem-solving, complexity basics, arrays, strings, searching, sorting, and common data structures |
 | `03_NumPy` | Numerical Computing | Arrays, indexing, slicing, vectorization, broadcasting, and mathematical operations |
 | `04_Pandas` | Data Manipulation | Series, DataFrames, filtering, grouping, merging, missing values, and data cleaning |
