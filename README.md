@@ -403,6 +403,62 @@ project_name/
 └── main.py
 ```
 
+## AI Engineer Roadmap Visually 
+
+```mermaid
+flowchart TD
+    %% Custom Interactive Themes & Color Grading
+    classDef tracking fill:#0f172a,stroke:#38bdf8,stroke-width:2px,color:#38bdf8,font-family:monospace;
+    classDef coreCode fill:#1e1b4b,stroke:#818cf8,stroke-width:2px,color:#e0e7ff,font-size:13px;
+    classDef dataPrep fill:#064e3b,stroke:#34d399,stroke-width:2px,color:#d1fae5,font-size:13px;
+    classDef modeling fill:#7c2d12,stroke:#fb923c,stroke-width:2px,color:#ffedd5,font-size:13px;
+    classDef launch fill:#4c1d95,stroke:#c084fc,stroke-width:3px,color:#f3e8ff,font-weight:bold,font-size:14px;
+
+    %% ----------------------------------------------------
+    %% PHASE LEVEL LABELS & NODES
+    %% ----------------------------------------------------
+    START([⚡ STARTING THE 180-DAY JOURNEY]):::tracking
+    
+    subgraph PHASE_1 ["💻 CORE FOUNDATIONS"]
+        Py["🐍 01_Python <br> (Python Fundamentals)<br>───<br>• Variables, Data Types & Control Flow<br>• Functions, Exceptions & Modules<br>• File Handling & Object-Oriented OOP"]:::coreCode
+        Dsa["🧩 02_DSA <br> (Data Structures & Algorithms)<br>───<br>• Complexity Basics & Problem Solving<br>• Arrays, Strings, Searching & Sorting<br>• Core Data Structures Structures"]:::coreCode
+    end
+
+    subgraph PHASE_2 ["📊 DATA SCIENCE & ANALYTICS ENGINE"]
+        Np["🔢 03_NumPy <br> (Numerical Computing)<br>───<br>• N-Dimensional Array Matrices<br>• Indexing, Slicing & Broadcasting<br>• High-Speed Vectorized Math"]:::dataPrep
+        Pd["🐼 04_Pandas <br> (Data Manipulation)<br>───<br>• Series & DataFrame Architectures<br>• Filtering, Grouping & Merging Pipelines<br>• Missing Values & Data Cleaning"]:::dataPrep
+        Eda["🔎 05_EDA <br> (Exploratory Data Analysis)<br>───<br>• Descriptive Statistics & Data Exploration<br>• Patterns, Correlations & Outliers<br>• Visual Data Storytelling"]:::dataPrep
+        Sql["🗄️ 06_SQL <br> (Database Fundamentals)<br>───<br>• Queries, Filtering & Aggregations<br>• Multi-Table Joins & Subqueries<br>• Analytical & Relational SQL Windowing"]:::dataPrep
+    end
+
+    subgraph PHASE_3 ["🤖 INTELLIGENT MODELING & COGNITION"]
+        Ml["🤖 07_ML <br> (Machine Learning)<br>───<br>• Data Preprocessing & Feature Engineering<br>• Supervised & Unsupervised Algorithms<br>• Model Evaluation Metrics"]:::modeling
+        Dl["🧠 08_Deep_Learning <br> (Deep Learning)<br>───<br>• Neural Networks & Backpropagation<br>• Specialized Deep Architectures<br>• Model Training & Fine-Tuning"]:::modeling
+    end
+
+    subgraph PHASE_4 ["🔮 NEXT-GEN INTELLIGENCE"]
+        GenAI["✨ 09_GenAI <br> (Generative AI)<br>───<br>• Large Language Models (LLMs) & Prompting<br>• Vector Embeddings & Transformers<br>• Retrieval-Augmented Generation (RAG)<br>• AI App Engineering"]:::modeling
+    end
+
+    subgraph PHASE_5 ["🚀 DEPLOYMENT & PRODUCTION scale"]
+        Proj["🛸 10_Projects <br> (Practical Implementation)<br>───<br>• Portfolio Building Blocks<br>• Independent End-to-End Delivery<br>• Multi-Disciplinary Systems Integration"]:::launch
+        Mlops(["🏁 11_Production_AI_MLOps <br> (Production Ready Systems)<br>───<br>• FastAPI, Docker & Cloud Environments<br>• CI/CD GitHub Actions & MLflow Pipelines<br>• Secrets Security, Cost Optimization & System Design"]):::launch
+    end
+
+    %% ----------------------------------------------------
+    %% INTERACTIVE TRANSITION PATHWAYS
+    %% ----------------------------------------------------
+    START ==> Py
+    Py --> Dsa
+    Dsa ==> Np
+    Np --> Pd --> Eda --> Sql
+    Sql ==> Ml
+    Ml --> Dl
+    Dl ==> GenAI
+    GenAI ==> Proj
+    Proj ==> Mlops
+```
+
 ## 📚 My Learning Method
 
 I aim to prioritize active practice over passive learning.
