@@ -164,54 +164,27 @@ My learning principles:
 # 📌 30-DAY PROGRESSION
 
 Here's the whole thing visually:
+graph TD
+    %% Styling Configuration
+    classDef default fill:#1f2937,stroke:#4b5563,stroke-width:2px,color:#f3f4f6,font-family:sans-serif;
+    classDef highlight fill:#2563eb,stroke:#3b82f6,stroke-width:2px,color:#ffffff,font-weight:bold;
 
-```text
-                         30 DAYS
-                            │
-                            ▼
-                    🐍 CS50P PYTHON
-                     Days 1–12
-                            │
-                            ▼
-                        🔢 NUMPY
-                     Days 13–15
-                            │
-                            ▼
-                       🐼 PANDAS
-                     Days 16–20
-                            │
-                            ▼
-                  📊 MATPLOTLIB
-                       Day 21
-                            │
-                            ▼
-                    📈 SEABORN
-                       Day 22
-                            │
-                            ▼
-                📊 VISUALIZATION
-                       Day 23
-                            │
-                            ▼
-                       🔎 EDA
-                       Day 24
-                            │
-                            ▼
-                    🏆 KAGGLE EDA
-                       Day 25
-                            │
-                            ▼
-                        🗄️ SQL
-                     Days 26–28
-                            │
-                            ▼
-                  🚀 KAGGLE PROJECT
-                       Day 29
-                            │
-                            ▼
-                  🏆 FINAL PROJECT
-                       Day 30
-```
+    %% Nodes
+    Start([📅 30 DAYS ROADMAP]):::highlight
+    Py[🐍 CS50P PYTHON <br> Days 1–12]
+    Np[🔢 NUMPY <br> Days 13–15]
+    Pd[🐼 PANDAS <br> Days 16–20]
+    Mpl[📊 MATPLOTLIB <br> Day 21]
+    Sbn[📈 SEABORN <br> Day 22]
+    Vis[📊 VISUALIZATION <br> Day 23]
+    Eda[🔎 EDA <br> Day 24]
+    KagEda[🏆 KAGGLE EDA <br> Day 25]
+    Sql[🗄️ SQL <br> Days 26–28]
+    KagProj[🚀 KAGGLE PROJECT <br> Day 29]
+    Final[🏆 FINAL PROJECT <br> Day 30 bars]:::highlight
+
+    %% Connections
+    Start --> Py --> Np --> Pd --> Mpl --> Sbn --> Vis --> Eda --> KagEda --> Sql --> KagProj --> Final
 
 ## ✅ Progress Tracker
 
