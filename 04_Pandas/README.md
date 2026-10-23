@@ -120,7 +120,7 @@ By completing this section, I aim to:
         └── data/
 ```
 
-*Note: This is the planned structure. Create the files and folders as you progress through each topic.*
+*Note: This is the planned structure.*
 
 ---
 
