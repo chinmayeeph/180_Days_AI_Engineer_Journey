@@ -1,4 +1,4 @@
-# 🚀 30-Day AI Engineer Python Foundations Journey
+# 🚀 Python Foundations Journey
 
 **A 30-day intensive learning journey to build the foundations for a career in AI Engineering through hands-on coding, problem-solving, data analysis, and practical projects.**
 
@@ -10,7 +10,7 @@ My goal is to develop strong programming fundamentals, learn to work with real-w
 
 Rather than focusing only on watching tutorials, I prioritize **hands-on coding, consistent practice, debugging, project building, and documenting what I learn.**
 
-## 🗺️ 30-Day Learning Roadmap
+## 🗺️ Learning Roadmap
 
 | Day    | Main Focus                  | Repo                                                                                                                                       			 | Output                       |
 | ------ | --------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------| ---------------------------- |
@@ -26,24 +26,6 @@ Rather than focusing only on watching tutorials, I prioritize **hands-on coding,
 | **10** | Python consolidation        | [day01_python_foundations](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/01_Python/day01_python_foundations)                    | Python mini project #1       |
 | **11** | Python advanced practice    | [day01_python_foundations](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/01_Python/day01_python_foundations)                    | Python mini project #2       |
 | **12** | Python capstone             | [day01_python_foundations](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/01_Python/day01_python_foundations)                    | Complete Python project      |
-| **13** | NumPy fundamentals          | [day01_python_foundations](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/01_Python/day01_python_foundations)                    | Arrays notebook              |
-| **14** | NumPy operations            | [day01_python_foundations](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/01_Python/day01_python_foundations)                    | NumPy exercises              |
-| **15** | NumPy mini project          | [day01_python_foundations](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/01_Python/day01_python_foundations)                    | Data analysis with NumPy     |
-| **16** | Pandas Series/DataFrames    | [day01_python_foundations](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/01_Python/day01_python_foundations)                    | Dataset exploration          |
-| **17** | Pandas filtering/cleaning   | [day01_python_foundations](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/01_Python/day01_python_foundations)                    | Data cleaning project        |
-| **18** | Pandas GroupBy/Aggregation  | [day01_python_foundations](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/01_Python/day01_python_foundations)                    | Analysis project             |
-| **19** | Pandas Merge/Join/Dates     | [day01_python_foundations](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/01_Python/day01_python_foundations)                    | Multi-table analysis         |
-| **20** | Pandas + Kaggle data        | [day01_python_foundations](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/01_Python/day01_python_foundations)                    | Kaggle dataset project       |
-| **21** | Matplotlib                  | [day01_python_foundations](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/01_Python/day01_python_foundations)                    | Visualization project        |
-| **22** | Seaborn                     | [day01_python_foundations](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/01_Python/day01_python_foundations)                    | Statistical visualization    |
-| **23** | Matplotlib + Seaborn        | [day01_python_foundations](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/01_Python/day01_python_foundations)                    | Visualization dashboard      |
-| **24** | EDA methodology             | [day01_python_foundations](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/01_Python/day01_python_foundations)                    | Complete EDA                 |
-| **25** | Kaggle EDA project          | [day01_python_foundations](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/01_Python/day01_python_foundations)                    | Full Kaggle analysis         |
-| **26** | SQL fundamentals            | [day01_python_foundations](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/01_Python/day01_python_foundations)                    | 30+ SQL queries              |
-| **27** | SQL intermediate            | [day01_python_foundations](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/01_Python/day01_python_foundations)                    | Analysis queries             |
-| **28** | SQL + Python                | [day01_python_foundations](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/01_Python/day01_python_foundations)                    | SQL data-analysis project    |
-| **29** | End-to-end Kaggle project   | [day01_python_foundations](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/01_Python/day01_python_foundations)                    | Portfolio project            |
-| **30** | Final independent project   | [day01_python_foundations](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/01_Python/day01_python_foundations)                    | GitHub-ready project         |
 
 *The roadmap is a learning target. Actual progress may vary depending on practice, debugging, and project complexity.*
 
@@ -100,7 +82,7 @@ Kaggle competition participation and results will be documented as I complete th
 The repository will be organized by learning day so that exercises, projects, and notes remain easy to find.
 
 ```text
-30-Day-AI-Engineer-Foundations-Journey/
+Foundations-Journey/
 │
 ├── README.md
 │
@@ -115,34 +97,12 @@ The repository will be organized by learning day so that exercises, projects, an
 ├── Day-09-OOP-Classes/
 ├── Day-10-Python-Mini-Project/
 ├── Day-11-Python-Practice/
-├── Day-12-Python-Capstone/
-│
-├── Day-13-NumPy-Fundamentals/
-├── Day-14-NumPy-Operations/
-├── Day-15-NumPy-Project/
-│
-├── Day-16-Pandas-Fundamentals/
-├── Day-17-Pandas-Data-Cleaning/
-├── Day-18-Pandas-GroupBy/
-├── Day-19-Pandas-Merge-Dates/
-├── Day-20-Pandas-Project/
-│
-├── Day-21-Matplotlib/
-├── Day-22-Seaborn/
-├── Day-23-Data-Visualization-Project/
-│
-├── Day-24-EDA/
-├── Day-25-Kaggle-EDA-Project/
-│
-├── Day-26-SQL-Fundamentals/
-├── Day-27-SQL-Intermediate/
-├── Day-28-SQL-Python/
-│
-├── Day-29-End-to-End-Project/
-└── Day-30-Independent-Capstone/
+└── Day-12-Python-Capstone/
 ```
 
-*This is the planned organization; folder names can be adjusted to match the actual repository as the work progresses.*
+*This is the planned organization; folder names can be adjusted to match the actual repository as the work progresses.* 
+
+You can view the rest 18 days in [Numpy, Pandas, EDA, SQL](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/01_Python/day02_conditions)
 
 ## 📈 My Learning Approach
 
@@ -241,7 +201,7 @@ flowchart TD
 
 ## 🚀 What's Next?
 
-This 30-day journey is the first stage of my broader six-month AI Engineer roadmap.
+This 30-day journey is the first stage of my broader six-month AI Engineer roadmap. 
 
 After establishing these foundations, my planned progression is:
 
