@@ -24,6 +24,16 @@ By completing this module, I aim to:
 
 ---
 
+## 🗺️ Learning Roadmap
+
+| Day    | Main Focus                  | Repo                                                                                                                                       			 | Output                       |
+| ------ | --------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------| ---------------------------- |
+| **13** | NumPy fundamentals          | [day01_python_foundations](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/01_Python/day01_python_foundations)                    | Arrays notebook              |
+| **14** | NumPy operations            | [day01_python_foundations](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/01_Python/day01_python_foundations)                    | NumPy exercises              |
+| **15** | NumPy mini project          | [day01_python_foundations](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/01_Python/day01_python_foundations)                    | Data analysis with NumPy     |
+
+---
+
 ## 📂 Folder Structure
 
 ```text
