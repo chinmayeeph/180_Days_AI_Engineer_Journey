@@ -102,7 +102,7 @@ Foundations-Journey/
 
 *This is the planned organization; folder names can be adjusted to match the actual repository as the work progresses.* 
 
-You can view the rest 18 days in [Numpy, Pandas, EDA, SQL](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/01_Python/day02_conditions)
+You can view the rest 18 days in [Numpy, Pandas, EDA, SQL]((https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/03_NumPy))
 
 ## 📈 My Learning Approach
 
