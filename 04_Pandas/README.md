@@ -29,6 +29,14 @@ By completing this section, I aim to:
 
 ## 🗺️ Learning Roadmap
 
+| Day    | Main Focus                  | Repo                                                                                                                                       			 | Output                       |
+| ------ | --------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------| ---------------------------- |
+| **16** | Pandas Series/DataFrames    | [day01_python_foundations](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/01_Python/day01_python_foundations)                    | Dataset exploration          |
+| **17** | Pandas filtering/cleaning   | [day01_python_foundations](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/01_Python/day01_python_foundations)                    | Data cleaning project        |
+| **18** | Pandas GroupBy/Aggregation  | [day01_python_foundations](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/01_Python/day01_python_foundations)                    | Analysis project             |
+| **19** | Pandas Merge/Join/Dates     | [day01_python_foundations](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/01_Python/day01_python_foundations)                    | Multi-table analysis         |
+| **20** | Pandas + Kaggle data        | [day01_python_foundations](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/01_Python/day01_python_foundations)                    | Kaggle dataset project       |
+
 | No. | Topic | Key Concepts |
 |---|---|---|
 | 01 | Series & DataFrames | `Series`, `DataFrame`, creation, attributes, basic operations |
