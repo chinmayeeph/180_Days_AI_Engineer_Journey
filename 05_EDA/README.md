@@ -26,6 +26,18 @@ By completing this section, I aim to learn how to:
 
 ---
 
+## 🗺️ Learning Roadmap
+
+| Day    | Main Focus                  | Repo                                                                                                                                       			 | Output                       |
+| ------ | --------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------| ---------------------------- |
+| **21** | Matplotlib                  | [day01_python_foundations](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/01_Python/day01_python_foundations)                    | Visualization project        |
+| **22** | Seaborn                     | [day01_python_foundations](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/01_Python/day01_python_foundations)                    | Statistical visualization    |
+| **23** | Matplotlib + Seaborn        | [day01_python_foundations](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/01_Python/day01_python_foundations)                    | Visualization dashboard      |
+| **24** | EDA methodology             | [day01_python_foundations](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/01_Python/day01_python_foundations)                    | Complete EDA                 |
+| **25** | Kaggle EDA project          | [day01_python_foundations](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/01_Python/day01_python_foundations)                    | Full Kaggle analysis         |
+
+---
+
 ## 🛠️ Tools and Technologies
 
 | Tool | Purpose |
