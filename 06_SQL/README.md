@@ -28,6 +28,18 @@ By completing this section, I aim to learn how to:
 
 ---
 
+## 🗺️ Learning Roadmap
+
+| Day    | Main Focus                  | Repo                                                                                                                                       			 | Output                       |
+| ------ | --------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------| ---------------------------- |
+| **26** | SQL fundamentals            | [day01_python_foundations](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/01_Python/day01_python_foundations)                    | 30+ SQL queries              |
+| **27** | SQL intermediate            | [day01_python_foundations](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/01_Python/day01_python_foundations)                    | Analysis queries             |
+| **28** | SQL + Python                | [day01_python_foundations](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/01_Python/day01_python_foundations)                    | SQL data-analysis project    |
+| **29** | End-to-end Kaggle project   | [day01_python_foundations](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/01_Python/day01_python_foundations)                    | Portfolio project            |
+| **30** | Final independent project   | [day01_python_foundations](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/01_Python/day01_python_foundations)                    | GitHub-ready project         |
+
+---
+
 ## 🛠️ Tools and Technologies
 
 | Tool | Purpose |
