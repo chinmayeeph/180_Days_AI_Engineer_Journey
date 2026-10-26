@@ -80,6 +80,7 @@ Foundations-Journey/
 	└── Day-28-SQL-Python/
 	├── Day-29-End-to-End-Project/
 	└── Day-30-Independent-Capstone/
+
 ---
 
 ## 📂 Folder Structure
@@ -122,6 +123,7 @@ Foundations-Journey/
 └── projects/
     └── student_marks_analysis/
         └── Student marks analysis using NumPy
+
 ```
 
 ---
