@@ -32,55 +32,6 @@ By completing this module, I aim to:
 | **14** | NumPy operations            | [day01_python_foundations](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/01_Python/day01_python_foundations)                    | NumPy exercises              |
 | **15** | NumPy mini project          | [day01_python_foundations](https://github.com/chinmayeeph/180_Days_AI_Engineer_Journey/tree/main/01_Python/day01_python_foundations)                    | Data analysis with NumPy     |
 
-## 📂 Repository Structure
-
-The repository will be organized by learning day so that exercises, projects, and notes remain easy to find.
-
-```text
-Foundations-Journey/
-│
-├── README.md
-│
-├── 01_Python
-│	├── Day-01-Python_Foundations/
-│	├── Day-02-Conditionals/
-│	├── Day-03-Loops/
-│	├── Day-04-Exceptions/
-│	├── Day-05-Libraries-Modules-Packages/
-│	├── Day-06-Unit-Testing/
-│	├── Day-07-File-Handling/
-│	├── Day-08-Regular-Expressions/
-│	├── Day-09-OOP-Classes/
-│	├── Day-10-Python-Mini-Project/
-│	├── Day-11-Python-Practice/
-│	└── Day-12-Python-Capstone/
-│
-├── 03_Numpy
-│	├── Day-13-NumPy-Fundamentals/
-│	├── Day-14-NumPy-Operations/
-│	└── Day-15-NumPy-Project/
-│
-├── 04_Pandas
-│	├── Day-16-Pandas-Fundamentals/
-│	├── Day-17-Pandas-Data-Cleaning/
-│	├── Day-18-Pandas-GroupBy/
-│	├── Day-19-Pandas-Merge-Dates/
-│	└── Day-20-Pandas-Project/
-│
-├── 05_EDA
-│	├── Day-21-Matplotlib/
-│	├── Day-22-Seaborn/
-│	└── Day-23-Data-Visualization-Project/
-│	├── Day-24-EDA/
-│	└── Day-25-Kaggle-EDA-Project/
-│
-└── 06_SQL
-	├── Day-26-SQL-Fundamentals/
-	├── Day-27-SQL-Intermediate/
-	└── Day-28-SQL-Python/
-	├── Day-29-End-to-End-Project/
-	└── Day-30-Independent-Capstone/
-
 ---
 
 ## 📂 Folder Structure
